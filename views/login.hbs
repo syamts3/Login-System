@@ -1,0 +1,34 @@
+
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<div class="card bg-dark text-white">
+  <img class="card-img" src="/images/gta-6-login.jpg" alt="Card image">
+  <div class="card-img-overlay ">
+<div class="text-center div p-5 mt-5 " id="login">
+    <div class="container w-25 border py-5  login-page">
+        <div class="title pb-5">
+           <div class="alert alert-success text-center">
+               {{message}} 
+                </div>
+            <h2 class="font-weight-bold text-dark card-text">Login</h2>
+            <span class="text-dark card-text">Log in for the exiting user</span>
+                <div>
+                <form action="/login" method="POST">
+                    <div class="form-group p-1">
+                        <input type="text" class="form-control"  minlength="14" placeholder="email" name="email">
+                        <small class="form-text text-left text-dark card-text">Email & Password</small>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control"  minlength="5" placeholder="password" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-success rounded-pill mt-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>

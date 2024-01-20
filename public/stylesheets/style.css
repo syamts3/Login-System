@@ -1,0 +1,113 @@
+body{
+  padding: auto;
+  margin: auto;
+  overflow: hidden; 
+  }
+input{
+  width: 23rem;
+  height: 1.6rem;
+  font-family: "Dosis", sans-serif;
+}
+.text-light{
+  font-family: "Dosis", "sans-serif";
+cursor: pointer;
+  
+}
+
+.img-social{
+  width: 20px;
+  height: 20px;
+}
+.text-xxl-end{
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button a {
+  color: rgb(25, 0, 255);
+  text-decoration: none;
+}
+#userProfile{
+width: 1rem;
+height: 1rem;
+}
+ul li{
+  list-style-type: none;
+}
+ul li:hover{
+  backdrop-filter: invert(80%);
+}
+ul li img{
+  width: 30px;
+ margin-right: 15px;
+ cursor: pointer;
+}
+#logout {
+  width: 80px;
+  height: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+#logout:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .1s; 
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+  backdrop-filter: blur(8px)
+}
+.box {
+  margin-top: 140px;
+  margin-left: 20px;
+  width: 271px;
+  height: 208px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myText{
+  color: yellow;
+}
+#userImg{
+  height: 100%;
+}
+#userText{
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+#userText:hover{
+  color: blue;
+}
+.login-page{  
+  backdrop-filter: blur(8px)
+}
+.text-xxl-center{
+
+  color:#e844ef;
+  -webkit-text-stroke: 1px #282828;
+	text-shadow: 3px 5px 2px #282828;
+}
